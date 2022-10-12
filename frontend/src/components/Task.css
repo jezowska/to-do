@@ -1,0 +1,33 @@
+.task__container {
+  max-width: 600px;
+  width: 30em;
+  font-size: 1rem;
+  padding: 1em 0;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid grey;
+  border: none;
+  border-radius: 1em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.task__container:hover {
+  cursor: pointer;
+  background-color: rgb(244, 243, 240);
+}
+
+.trash-icon {
+  margin-left: auto;
+  margin-right: 1em;
+}
+
+.trash-icon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.task {
+  margin: 0;
+  padding: 0 1em;
+  font-size: 1.5em;
+}

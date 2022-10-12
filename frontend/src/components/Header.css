@@ -1,0 +1,20 @@
+.header__container {
+  padding: 0.75em 3em;
+
+  max-height: 8em;
+  margin-bottom: 2em;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__wrapper h3 {
+  cursor: pointer;
+}
+
+.header__wrapper h3:hover {
+  opacity: 0.5;
+}
